@@ -21,6 +21,7 @@ text-align:center;
 width:60%;
 right:0;left:0;
 margin:auto;
+border-radius:10px;
 height:400px;
 background-image:url(https://res.cloudinary.com/adetohun/image/upload/v1568627285/Slice_2.png)
 }
@@ -28,6 +29,8 @@ background-image:url(https://res.cloudinary.com/adetohun/image/upload/v156862728
 background-color: rgba(255,255, 255, 1);
 height:400px;
 position:absolute;
+border-radius:10px;
+text-shadow:10px;
 top:0px;
 width:50%;
 right:calc(50% - 0px);
@@ -89,7 +92,7 @@ padding:0 50px;
 }
 .sign-up,
 .sign-in{
-text-transform:Uppercase;
+text-decoration:underline;
 font-size:20pt;	
 }
 .show-log-panel{
@@ -116,8 +119,7 @@ border-radius: 2px;
 cursor:pointer;
 }
 .login-show a{
-display:inline-block;
-padding:10px 0;
+display:block;
 }
 
 .register-show input[type="text"], .register-show input[type="password"]{
@@ -157,7 +159,7 @@ z-index: 99;
 a{
 text-decoration:none;
 color:#285FCA;
-float:right;
+font-size:9pt;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Mukta');
